@@ -1,0 +1,9 @@
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head h1{
+    margin-left: 15px;
+    font-size: 150px;
+}

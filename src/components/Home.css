@@ -1,0 +1,80 @@
+nav {
+  background-color: lightskyblue;
+  height: 10vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.logout {
+  background-color: antiquewhite;
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: aqua;
+  margin-left: 700px;
+  font-weight: bolder;
+  color: white;
+}
+nav h1 {
+  font-size: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+}
+.chatMain {
+  /* background-color: aqua; */
+  position: fixed;
+  top: 730px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chat {
+  width: 95vw;
+  height: 5vh;
+  margin: auto;
+  border-radius: 10px;
+  border: none;
+  border-bottom: 3px solid black;
+  text-align: center;
+}
+.sendbtn {
+  border: none;
+  margin-left: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: aqua;
+  font-weight: bolder;
+  color: white;
+}
+button:active {
+  background-color: lightgreen;
+}
+.container {
+  border: 1px solid black;
+  width: 90vw;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.del {
+  display: flex;
+  justify-content: end;
+}
+.delete {
+  background-color: aqua;
+  width: 60px;
+  height: 40px;
+  margin: auto;
+  border-radius: 10px;
+  border: none;
+  margin-right: 10px;
+  color: white;
+}
+.delete:active {
+  background-color: lightgreen;
+}
+.user {
+  margin-left: 10px;
+}
